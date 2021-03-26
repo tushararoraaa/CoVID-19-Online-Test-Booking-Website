@@ -1,0 +1,170 @@
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram
+{
+  background:  #fb3958;
+  color: white;
+
+}
+.fa-envelope
+{
+  background: #F20530;
+  color: white;
+}
+#icons
+{
+  margin: 30px;
+  height: 60px;
+  width: 60px;
+}
+#content
+{
+  background-color: white;
+}
+#Contact
+{
+
+  text-align: center;
+  background-color:white;
+
+
+}
+.nav-item
+{
+  font-size: 1.2rem;
+  color: black;
+}
+#copyright
+{
+  padding-bottom:1.2rem;
+}
+
+hr
+{
+  border: 1px solid white;
+  width: 40%;
+}
+.form-group
+{
+  width:40%;
+}
+.nav-item:hover
+{
+  border: 0.8px solid black;
+
+}
+#id1
+{
+  margin: 0 px;
+  background-color: #286836;
+  color: white;
+}
+a:hover
+{
+  color: pink;
+}
+#button_tab
+{
+  border: 1px solid white;
+  background-color: #257739;
+  text-align: center;
+  color: black;
+}
+#button_tab:hover
+{
+    background-color:grey ;
+}
+#button_tab1
+{
+  border: 1px solid white;
+  background-color: #95c22b;
+  text-align: center;
+  color: black;
+}
+#button_tab1:hover
+{
+   background-color:grey ;
+}
+h2,h3
+{
+  text-align: center;
+}
+#home_collection_menu
+{
+
+  opacity: 0.7;
+  background-color:green;
+  color: white;
+  font-weight: 200;
+
+}
+#par
+{
+  text-align: center;
+  font-weight: 100;
+}
+#book
+{
+
+  background-color: yellow;
+   width: 250px;
+}
+#content2
+{
+  background-color: red;
+  color: black;
+}
+#content2:hover
+{
+  border: 3px solid green;
+}
+#form1
+{
+  color: white;
+  background-image: url(unpic.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container{
+  text-align: center;
+}
